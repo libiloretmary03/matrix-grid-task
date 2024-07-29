@@ -1,0 +1,13 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px ;
+    grid-gap: 10px;
+}
+
+.main>div{
+    
+    border: 10px black solid;
+}
